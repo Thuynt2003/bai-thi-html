@@ -1,5 +1,5 @@
-header{
-    display: inline-flex;
+.header{
+    display: flex;
 }
 .logo{
     width: 77px;
@@ -12,7 +12,7 @@ header{
 .head ul{
     display: flex
 }
-.head a{
+a{
     text-decoration: none;
     
 }
@@ -100,74 +100,64 @@ header{
 .price{
     display: flex;
 }
-#footer {
-    background-color: #a2d1f8;
-    border: 1px solid rgb(172, 154, 154);
-     margin-top: 5px;
-    height: auto;
-}
 
-.header-sign-up {
-    padding: 20px 0px;
-}
-.btn-sign-up button{
-    background-color: #fff;
-    color: #000;
-    width: 239px;
-    padding: 5px;
-    border-radius: 0px;
-    padding: 10px 20px;
+.btn-sign-up{
+    width: 15px;
+    height:17px;
+    margin-left: 3px;
+    margin-top: 16px;
 
 }
-
-.footer1 {
-    margin: 0px !important;
+footer{
+    border: 0.1px solid rgb(230, 202, 202);
+    width: 100%;
+    height: 192px;
+    margin-top: 7px;
+    background: #eee;
 }
-
-.input-mail input {
-    width: 239px;
-    padding: 10px 20px;
-    border-radius: 0px;
-    margin-right: 10px;
-
+.input-mail{
+    display: flex;
+    margin-top: 7px;
+   
 }
-
-.input-mail {
+.address{
+    margin-left: 5px;
+    margin-top: 16px;
+    height: 19px;
+}
+:hover .button-register{
+    background-color: #64b3f4;
+}
+.content{
+    width: 146px;
+    height: 28px;
+    border: 1px solid;
+    margin-top: 32px;
+    margin-left: 3px;
+    text-align: center;
+    background-color: white;
+}
+.container{
+    margin-left: 32px;
+}
+.row{
     display: flex;
 }
-
-.btn-sign-up:hover button {
-    transition: 0.5s ease;
+.col{
+    margin-left: 29px;
 }
-
-.pd-top-10 {
-    padding-top: 10px;
+h2{
+    margin-left: 27px;
+    font-size: 20px;
+    color: #64b3f4;
 }
-
-.subnav li {
-    padding: 10px 0px;
+.subnav a{
+    color:  #606161;
 }
-
-.subnav li a {
-    text-decoration: none;
+.footer-icon{
+    text-align: center;
+    margin-top: 35px;
 }
-
-.subnav a:hover {
-  
-    transition: 0.5s ease;
-}
-
-ul {
-    padding: 0px !important;
-}
-
-.footer1 {
-    max-width: 100% !important;
-}
-.footer-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #fff;
-    padding: 10px ;
+ion-icon{
+    margin-left: 50px;
 }
