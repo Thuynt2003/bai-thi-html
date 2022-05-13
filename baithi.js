@@ -1,4 +1,4 @@
-function nextSlide  ()  {
+function nextslide  ()  {
     let allSlides = document.querySelectorAll(".slideImg");
     for(let i = 0; i < allSlides.length; i++) {
         if(allSlides[i].className.includes("activeSlide")) {
@@ -14,4 +14,4 @@ function nextSlide  ()  {
         }
     }
 }
-setInterval(() => nextSlide(), 3000);
+setInterval(() => nextslide(), 3000);
